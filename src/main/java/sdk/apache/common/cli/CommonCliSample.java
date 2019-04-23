@@ -10,19 +10,8 @@ import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
-public class AntOptionExample {
+public class CommonCliSample {
 
-	/*
-	 * ant [options] [target [target2 [target3] ...]] Options: -help print this
-	 * message -projecthelp print project help information -version print the
-	 * version information and exit -quiet be extra quiet -verbose be extra verbose
-	 * -debug print debugging information -emacs produce logging information without
-	 * adornments -logfile <file> use given file for log -logger <classname> the
-	 * class which is to perform logging -listener <classname> add an instance of
-	 * class as a project listener -buildfile <file> use given buildfile
-	 * -D<property>=<value> use value for given property -find <file> search for
-	 * buildfile towards the root of the filesystem and use it
-	 */
 	public static void main(String[] args) {
 
 		// 1. Boolean 옵션. 헬프 출력
