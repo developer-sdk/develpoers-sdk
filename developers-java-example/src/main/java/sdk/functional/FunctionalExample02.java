@@ -5,7 +5,8 @@ import java.util.List;
 import java.util.function.Consumer;
 
 /**
- * 리스트를 이용한 이터레이션
+ * 명령형과 서술형 스타일의 코드 
+ *   for문을 이용할 때의 예제 
  * 
  * @author whitebeard-k
  *
